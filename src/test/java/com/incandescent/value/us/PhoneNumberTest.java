@@ -1,4 +1,4 @@
-package com.incandescent.value.usa;
+package com.incandescent.value.us;
 
 import org.testng.annotations.Test;
 
