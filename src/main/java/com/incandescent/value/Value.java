@@ -25,6 +25,10 @@ public abstract class Value<T> {
         return this.value.equals(thatVal.value);
     }
 
+    public T val() {
+        return value;
+    }
+
     @Override
     public int hashCode() {
         return value != null ? value.hashCode() : 0;
