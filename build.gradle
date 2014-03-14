@@ -1,21 +1,13 @@
 apply plugin: 'java'
 apply plugin: 'maven'
+apply plugin: 'idea'
 
+group 'com.bradneighbors'
+version '0.1'
 
 repositories {
   mavenCentral()
   mavenLocal()
-}
-
-uploadArchives {
-  repositories {
-    mavenDeployer {
-      repository(url: "~/.m2/repository/")
-      pom.version = '0.1'
-      pom.groupId = 'com.incandescent'
-      pom.artifactId = 'values'
-    }
-  }
 }
 
 dependencies {
